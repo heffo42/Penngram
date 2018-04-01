@@ -7,23 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		190E9E711FAE7660001D945D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190E9E701FAE7660001D945D /* Main.storyboard */; };
+		191F56EE1FAE782A0059493D /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191F56ED1FAE782A0059493D /* SignUpView.swift */; };
+		191F56F01FAE78480059493D /* LoginInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191F56EF1FAE78480059493D /* LoginInView.swift */; };
+		191F56F21FAE84A90059493D /* ViewControllerPannable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191F56F11FAE84A90059493D /* ViewControllerPannable.swift */; };
+		192AA9081FA1A7EC00F545B4 /* Paws.m in Sources */ = {isa = PBXBuildFile; fileRef = 192AA9071FA1A7EC00F545B4 /* Paws.m */; };
+		197F55CA1FAABBA4009C1F5E /* FeedCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197F55C91FAABBA4009C1F5E /* FeedCellTableViewCell.swift */; };
+		197F55CC1FAABCE8009C1F5E /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197F55CB1FAABCE8009C1F5E /* PostData.swift */; };
+		197F55CE1FAAC29D009C1F5E /* Feed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197F55CD1FAAC29D009C1F5E /* Feed.swift */; };
+		197F55D01FAAC2E5009C1F5E /* LifeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197F55CF1FAAC2E5009C1F5E /* LifeData.swift */; };
+		197F55D21FAAF163009C1F5E /* WritePost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197F55D11FAAF163009C1F5E /* WritePost.swift */; };
+		197F55D41FAB7FD5009C1F5E /* popularViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197F55D31FAB7FD5009C1F5E /* popularViewController.swift */; };
+		197F55D61FAB830C009C1F5E /* generalFeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197F55D51FAB830C009C1F5E /* generalFeedTableViewController.swift */; };
+		197F55D81FAB9FF9009C1F5E /* commentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197F55D71FAB9FF9009C1F5E /* commentController.swift */; };
+		197F55DA1FABB21E009C1F5E /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197F55D91FABB21E009C1F5E /* WelcomeView.swift */; };
+		197F55DC1FAC2164009C1F5E /* commentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197F55DB1FAC2164009C1F5E /* commentCell.swift */; };
+		197F55DE1FAD0557009C1F5E /* editorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197F55DD1FAD0557009C1F5E /* editorCell.swift */; };
 		19D682981FA18E0F00BABA6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D682971FA18E0F00BABA6E /* AppDelegate.swift */; };
-		19D6829A1FA18E0F00BABA6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19D682991FA18E0F00BABA6E /* ViewController.swift */; };
-		19D6829D1FA18E0F00BABA6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D6829B1FA18E0F00BABA6E /* Main.storyboard */; };
 		19D682A01FA18E0F00BABA6E /* Parsegram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 19D6829E1FA18E0F00BABA6E /* Parsegram.xcdatamodeld */; };
 		19D682A21FA18E0F00BABA6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19D682A11FA18E0F00BABA6E /* Assets.xcassets */; };
 		19D682A51FA18E0F00BABA6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19D682A31FA18E0F00BABA6E /* LaunchScreen.storyboard */; };
+		1DE1961BAB77A303CFA111C1 /* Pods_Parsegram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F03F0191BEF0FD6B94D226F /* Pods_Parsegram.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		190E9E701FAE7660001D945D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		191F56ED1FAE782A0059493D /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		191F56EF1FAE78480059493D /* LoginInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInView.swift; sourceTree = "<group>"; };
+		191F56F11FAE84A90059493D /* ViewControllerPannable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPannable.swift; sourceTree = "<group>"; };
+		192AA9061FA1A7EC00F545B4 /* Parsegram-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Parsegram-Bridging-Header.h"; sourceTree = "<group>"; };
+		192AA9071FA1A7EC00F545B4 /* Paws.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Paws.m; sourceTree = "<group>"; };
+		197F55C91FAABBA4009C1F5E /* FeedCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCellTableViewCell.swift; sourceTree = "<group>"; };
+		197F55CB1FAABCE8009C1F5E /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		197F55CD1FAAC29D009C1F5E /* Feed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Feed.swift; sourceTree = "<group>"; };
+		197F55CF1FAAC2E5009C1F5E /* LifeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeData.swift; sourceTree = "<group>"; };
+		197F55D11FAAF163009C1F5E /* WritePost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritePost.swift; sourceTree = "<group>"; };
+		197F55D31FAB7FD5009C1F5E /* popularViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popularViewController.swift; sourceTree = "<group>"; };
+		197F55D51FAB830C009C1F5E /* generalFeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generalFeedTableViewController.swift; sourceTree = "<group>"; };
+		197F55D71FAB9FF9009C1F5E /* commentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = commentController.swift; sourceTree = "<group>"; };
+		197F55D91FABB21E009C1F5E /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		197F55DB1FAC2164009C1F5E /* commentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = commentCell.swift; sourceTree = "<group>"; };
+		197F55DD1FAD0557009C1F5E /* editorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editorCell.swift; sourceTree = "<group>"; };
 		19D682941FA18E0F00BABA6E /* Parsegram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parsegram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19D682971FA18E0F00BABA6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		19D682991FA18E0F00BABA6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		19D6829C1FA18E0F00BABA6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		19D6829F1FA18E0F00BABA6E /* Parsegram.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Parsegram.xcdatamodel; sourceTree = "<group>"; };
 		19D682A11FA18E0F00BABA6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19D682A41FA18E0F00BABA6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19D682A61FA18E0F00BABA6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FEA85A6B8D4B14FA1FA1508 /* Pods-Parsegram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parsegram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Parsegram/Pods-Parsegram.debug.xcconfig"; sourceTree = "<group>"; };
+		6F03F0191BEF0FD6B94D226F /* Pods_Parsegram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parsegram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE819B6DE33578FFD886C103 /* Pods-Parsegram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parsegram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Parsegram/Pods-Parsegram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DE1961BAB77A303CFA111C1 /* Pods_Parsegram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +76,8 @@
 			children = (
 				19D682961FA18E0F00BABA6E /* Parsegram */,
 				19D682951FA18E0F00BABA6E /* Products */,
+				692E9C20B989CD063F891A11 /* Pods */,
+				B40A03C362FFA40DB55C6303 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +93,46 @@
 			isa = PBXGroup;
 			children = (
 				19D682971FA18E0F00BABA6E /* AppDelegate.swift */,
-				19D682991FA18E0F00BABA6E /* ViewController.swift */,
-				19D6829B1FA18E0F00BABA6E /* Main.storyboard */,
 				19D682A11FA18E0F00BABA6E /* Assets.xcassets */,
 				19D682A31FA18E0F00BABA6E /* LaunchScreen.storyboard */,
 				19D682A61FA18E0F00BABA6E /* Info.plist */,
 				19D6829E1FA18E0F00BABA6E /* Parsegram.xcdatamodeld */,
+				192AA9071FA1A7EC00F545B4 /* Paws.m */,
+				192AA9061FA1A7EC00F545B4 /* Parsegram-Bridging-Header.h */,
+				197F55C91FAABBA4009C1F5E /* FeedCellTableViewCell.swift */,
+				190E9E701FAE7660001D945D /* Main.storyboard */,
+				197F55CB1FAABCE8009C1F5E /* PostData.swift */,
+				197F55CD1FAAC29D009C1F5E /* Feed.swift */,
+				197F55CF1FAAC2E5009C1F5E /* LifeData.swift */,
+				197F55D11FAAF163009C1F5E /* WritePost.swift */,
+				197F55D31FAB7FD5009C1F5E /* popularViewController.swift */,
+				197F55D51FAB830C009C1F5E /* generalFeedTableViewController.swift */,
+				197F55D71FAB9FF9009C1F5E /* commentController.swift */,
+				197F55D91FABB21E009C1F5E /* WelcomeView.swift */,
+				197F55DB1FAC2164009C1F5E /* commentCell.swift */,
+				197F55DD1FAD0557009C1F5E /* editorCell.swift */,
+				191F56ED1FAE782A0059493D /* SignUpView.swift */,
+				191F56EF1FAE78480059493D /* LoginInView.swift */,
+				191F56F11FAE84A90059493D /* ViewControllerPannable.swift */,
 			);
 			path = Parsegram;
+			sourceTree = "<group>";
+		};
+		692E9C20B989CD063F891A11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FEA85A6B8D4B14FA1FA1508 /* Pods-Parsegram.debug.xcconfig */,
+				DE819B6DE33578FFD886C103 /* Pods-Parsegram.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B40A03C362FFA40DB55C6303 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F03F0191BEF0FD6B94D226F /* Pods_Parsegram.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +142,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 19D682A91FA18E0F00BABA6E /* Build configuration list for PBXNativeTarget "Parsegram" */;
 			buildPhases = (
+				98D7235D7D95366D0E6C8B18 /* [CP] Check Pods Manifest.lock */,
 				19D682901FA18E0E00BABA6E /* Sources */,
 				19D682911FA18E0E00BABA6E /* Frameworks */,
 				19D682921FA18E0E00BABA6E /* Resources */,
+				3C1C74C0969EAB68952A9213 /* [CP] Embed Pods Frameworks */,
+				C8871722921F93211211A42F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,6 +170,7 @@
 				TargetAttributes = {
 					19D682931FA18E0E00BABA6E = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,36 +198,102 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				190E9E711FAE7660001D945D /* Main.storyboard in Resources */,
 				19D682A51FA18E0F00BABA6E /* LaunchScreen.storyboard in Resources */,
 				19D682A21FA18E0F00BABA6E /* Assets.xcassets in Resources */,
-				19D6829D1FA18E0F00BABA6E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C1C74C0969EAB68952A9213 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Parsegram/Pods-Parsegram-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+				"${BUILT_PRODUCTS_DIR}/ParseUI/ParseUI.framework",
+				"${BUILT_PRODUCTS_DIR}/UITextView+Placeholder/UITextView_Placeholder.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ParseUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UITextView_Placeholder.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Parsegram/Pods-Parsegram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98D7235D7D95366D0E6C8B18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Parsegram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8871722921F93211211A42F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Parsegram/Pods-Parsegram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		19D682901FA18E0E00BABA6E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19D6829A1FA18E0F00BABA6E /* ViewController.swift in Sources */,
+				197F55CE1FAAC29D009C1F5E /* Feed.swift in Sources */,
+				191F56EE1FAE782A0059493D /* SignUpView.swift in Sources */,
+				197F55CC1FAABCE8009C1F5E /* PostData.swift in Sources */,
+				197F55D81FAB9FF9009C1F5E /* commentController.swift in Sources */,
+				197F55D41FAB7FD5009C1F5E /* popularViewController.swift in Sources */,
+				197F55D21FAAF163009C1F5E /* WritePost.swift in Sources */,
+				192AA9081FA1A7EC00F545B4 /* Paws.m in Sources */,
+				191F56F01FAE78480059493D /* LoginInView.swift in Sources */,
 				19D682981FA18E0F00BABA6E /* AppDelegate.swift in Sources */,
+				191F56F21FAE84A90059493D /* ViewControllerPannable.swift in Sources */,
+				197F55CA1FAABBA4009C1F5E /* FeedCellTableViewCell.swift in Sources */,
+				197F55D61FAB830C009C1F5E /* generalFeedTableViewController.swift in Sources */,
+				197F55DE1FAD0557009C1F5E /* editorCell.swift in Sources */,
+				197F55D01FAAC2E5009C1F5E /* LifeData.swift in Sources */,
+				197F55DA1FABB21E009C1F5E /* WelcomeView.swift in Sources */,
 				19D682A01FA18E0F00BABA6E /* Parsegram.xcdatamodeld in Sources */,
+				197F55DC1FAC2164009C1F5E /* commentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		19D6829B1FA18E0F00BABA6E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				19D6829C1FA18E0F00BABA6E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		19D682A31FA18E0F00BABA6E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -276,14 +414,18 @@
 		};
 		19D682AA1FA18E0F00BABA6E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FEA85A6B8D4B14FA1FA1508 /* Pods-Parsegram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JRETGXZ8ZP;
 				INFOPLIST_FILE = Parsegram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Heffon.Parsegram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Parsegram/Parsegram-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -291,14 +433,17 @@
 		};
 		19D682AB1FA18E0F00BABA6E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE819B6DE33578FFD886C103 /* Pods-Parsegram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JRETGXZ8ZP;
 				INFOPLIST_FILE = Parsegram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Heffon.Parsegram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Parsegram/Parsegram-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

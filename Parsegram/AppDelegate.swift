@@ -8,6 +8,10 @@
 
 import UIKit
 import CoreData
+import Bolts
+import Parse
+import ParseUI
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +21,44 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let config = ParseClientConfiguration(block: {
+            (ParseMutableClientConfiguration) -> Void in
+            ParseMutableClientConfiguration.applicationId = "parse_gram_app_id_321";
+            ParseMutableClientConfiguration.clientKey = "sasha3424_password";
+            ParseMutableClientConfiguration.server = "http://cloud.emenbee.net:1337/parse"
+            //ParseMutableClientConfiguration.server = "https://parsegrame.herokuapp.com/parse";
+        });
+        
+        Parse.initialize(with: config);
+        
+        /*
+        var tableVC:CatsTableViewController = CatsTableViewController(className: "Cat")
+        tableVC.title = "Paws"
+        UINavigationBar.appearance().tintColor = UIColor(red: 0.05, green: 0.47, blue: 0.91, alpha: 1.0)
+        UINavigationBar.appearance().barTintColor = UIColor(red: 0.05, green: 0.47, blue: 0.91, alpha: 1.0)
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedStringKey.foregroundColor: UIColor.white]
+        UIApplication.shared.statusBarStyle = UIStatusBarStyle.lightContent
+        */
+        
+       // var logInController = PFLogInViewController()
+       // logInController.signUpController = MySignUpViewController()
+        
+        
+       
+        
+      //  var navigationVC:UINavigationController = UINavigationController(rootViewController: myTable)
+        
+        /*
+        let frame = UIScreen.main.bounds
+        window = UIWindow(frame: frame)
+        
+         var myTable: CatTableControllerTableViewController = CatTableControllerTableViewController()
+        
+        window!.rootViewController = myTable
+        window!.makeKeyAndVisible() */
+  
+        
         return true
     }
 
